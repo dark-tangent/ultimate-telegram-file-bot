@@ -4,8 +4,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.11-blue?logo=python" />
-  <img src="https://img.shields.io/github/license/YOURUSERNAME/ultimate-telegram-file-bot?color=green" />
-  <img src="https://img.shields.io/github/stars/YOURUSERNAME/ultimate-telegram-file-bot?style=social" />
+  <img src="https://img.shields.io/github/license/dark-tangent/ultimate-telegram-file-bot?color=green" />
+  <img src="https://img.shields.io/github/stars/dark-tangent/ultimate-telegram-file-bot?style=social" />
 </p>
 
 ---
