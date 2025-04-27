@@ -1,6 +1,6 @@
 # Ultimate Telegram File Bot 🚀
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?templateLink=https://github.com/YOURUSERNAME/ultimate-telegram-file-bot&envs=BOT_TOKEN,API_ID,API_HASH,MONGO_URI,OWNER_ID&projectName=Ultimate-Telegram-File-Bot&serviceName=uploader-bot)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?templateLink=https://github.com/dark-tangent/ultimate-telegram-file-bot&envs=BOT_TOKEN,API_ID,API_HASH,MONGO_URI,OWNER_ID&projectName=Ultimate-Telegram-File-Bot&serviceName=uploader-bot)
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.11-blue?logo=python" />
@@ -41,7 +41,7 @@
 
 Click this button to deploy instantly:
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?templateLink=https://github.com/YOURUSERNAME/ultimate-telegram-file-bot&envs=BOT_TOKEN,API_ID,API_HASH,MONGO_URI,OWNER_ID&projectName=Ultimate-Telegram-File-Bot&serviceName=uploader-bot)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?templateLink=https://github.com/dark-tangent/ultimate-telegram-file-bot&envs=BOT_TOKEN,API_ID,API_HASH,MONGO_URI,OWNER_ID&projectName=Ultimate-Telegram-File-Bot&serviceName=uploader-bot)
 
 ### Docker (Manual)
 
