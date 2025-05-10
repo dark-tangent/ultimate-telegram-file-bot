@@ -14,6 +14,11 @@ app = Client(
 
 init_db()
 
+@app.on_message(filters.command("start"))
+async def start(client, message):
+    print("Received /start")
+    await message.reply("👋 हेलो! मैं फाइल अपलोडर बॉट हूँ। कोई वीडियो या डॉक्युमेंट भेजें।")
+
 @app.on_message(filters.document | filters.video)
 async def handle_upload(client, message):
     await upload_file(client, message)
@@ -30,7 +35,6 @@ async def handle_premium(client, message):
 async def handle_stats(client, message):
     await stats(client, message)
 
-print("Bot is running...")
-
 if __name__ == "__main__":
+    print("Bot is running...")
     app.run()
