@@ -4,9 +4,9 @@ from utils.database import get_user, reset_daily_quota_if_needed
 from pyrogram import enums
 
 async def upload_file(client, message):
-    user_id = message.from_user.id
-    reset_daily_quota_if_needed(user_id)
-    user = get_user(user_id)
+    await message.reply("📤 फाइल प्रोसेस की जा रही है...")
+    file = await message.download()
+    await message.reply_document(file, caption="✅ अपलोड पूरा हुआ।")
 
     file_size = message.document.file_size if message.document else message.video.file_size
     if user["used_today"] + file_size > user["daily_limit"]:
