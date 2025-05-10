@@ -30,5 +30,7 @@ async def handle_premium(client, message):
 async def handle_stats(client, message):
     await stats(client, message)
 
+print("Bot is running...")
+
 if __name__ == "__main__":
     app.run()
